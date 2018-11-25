@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="header">
-            <div class="container d-flex flex-column h-100 justify-content-between">
+            <div class="container d-flex flex-column  justify-content-between">
                 <nav class="navbar navbar-expand-xs navbar-light bg-transparent py-5">
                     <a class="navbar-brand" href="#">
                         AKAD.
@@ -26,8 +26,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">
                                     Home
                                     <span class="sr-only">
                                         (current)
@@ -35,29 +35,38 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Features
+                                <a class="nav-link" href="about.html">
+                                   About Us
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Pricing
+                                <a class="nav-link" href="blog.html">
+                                   Blog
+                                </a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" href="contact.html">
+                                  Contact Us
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
                 <div class=" text-center mt-150 mb-150">
-                    <h1 class="text-uppercase">
+                    <h1 class="text-uppercase text-secondary">
                         our services
                     </h1>
-                    <a class=" text-dark text-uppercase" href="">
+                    <div class="line d-sm-inline-block">
+                    <a class=" text-secondary text-uppercase mr-3" href="">
                         home
                     </a>
-                    /
-                    <a class=" text-dark text-uppercase" href="">
+                     </div>
+                   
+                    
+                    <a class=" text-secondary text-uppercase" href="">
                         about
                     </a>
+                    
                 </div>
             </div>
         </div>
@@ -65,16 +74,18 @@
             <section class=" text-center mt-150">
                 <div class="container">
                     <div class="row what__background">
-                        <div class="col-xl-9 text-center m-auto">
-                            <h1>
+                        <div class="col-xl-9 text-center m-auto text-secondary">
+                            <div class="background">
+                            <h1 class="h1">
                                 WHAT WE DO
                             </h1>
+                            </div>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
                     </div>
-                    <div class="row xl-50 mt-150">
+                    <div class="row xl-50 mt-150 text-secondary">
                         <div class="col-md-7 text-left m-auto">
                             <p class="">
                                 Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
@@ -171,7 +182,9 @@
         <div class="row">
             <div class="col-xl-3 text-center d-flex flex-wrap align-items-end">
                 <div class="col-xl-11">
+                    <div class="mt-3 pb-3">
                     <img class="m-auto" src="../images/keep.png">
+                    </div>
                         <h5 class="text-uppercase mt-4">
                             KEEP PULSE GOING
                         </h5>
@@ -183,7 +196,9 @@
             </div>
             <div class="col-xl-3 text-center d-flex flex-wrap align-items-end">
                 <div class="col-xl-11">
+                    <div class="mt-3 pt-4">
                     <img class="m-auto" src="../images/pass.png">
+                </div>
                         <h5 class="text-uppercase mt-5">
                             PASS THE LIMITS
                         </h5>
@@ -195,7 +210,9 @@
             </div>
             <div class="col-xl-3 text-center d-flex flex-wrap align-items-end">
                 <div class="col-xl-11">
+                     <div class="mt-3 pb-4">
                     <img class="m-auto" src="../images/great.png">
+                </div>
                         <h5 class="text-uppercase mt-4">
                             GREAT IDEAS
                         </h5>
@@ -206,7 +223,9 @@
                 </div>
             </div>
             <div class="col-xl-3 text-center d-flex flex-wrap align-items-end">
+                <div class="m-auto pt-2">
                 <img class="text-center m-auto" src="../images/awesome.png">
+                </div>
                     <div class="col-xl-11">
                         <h5 class="text-uppercase mt-4">
                             AWESOME SUPPORT
@@ -223,9 +242,11 @@
 <div class="container">
     <div class="row mt-150 what__background">
         <div class="col-xl-9 mx-auto text-center">
+            <div class="pricing">
             <h2>
                 pricing plans
             </h2>
+        </div>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -233,8 +254,8 @@
     </div>
 </div>
 <section class="mt-150 mb-150 container">
-    <div class="row">
-        <div class="col-sm-4">
+    <div class="row m-auto">
+        <div class="col-xl-4 col-md-6 m-md-auto col-sm-8 m-sm-auto">
             <div class="box p-3">
                 <h1>
                     BASIC
@@ -242,107 +263,80 @@
                 <h6 class="bg-success d-inline-block p-1 pr-4 pl-4 text-white mb-5">
                     $35.99 Monthly
                 </h6>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Lorem" type="checkbox"/>
-                    <label class="custom-control-label" for="Lorem">
-                        Lorem ipsum dolor sit amet
-                    </label>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Consectetuer" type="checkbox"/>
-                    <label class="custom-control-label" for="Consectetuer">
-                        Consectetuer adipiscing elit
-                    </label>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Sed" type="checkbox">
-                        <label class="custom-control-label" for="Sed">
-                            Sed diam nonummy
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Nibh" type="checkbox">
-                        <label class="custom-control-label" for="Nibh">
-                            Nibh euismod tincidunt
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Ut" type="checkbox">
-                        <label class="custom-control-label" for="Ut">
-                            Ut laoreet dolore
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Magna" type="checkbox">
-                        <label class="custom-control-label" for="Magna">
-                            Magna aliquam erat volutpat
-                        </label>
-                    </input>
-                </div>
-                <button class="mt-50 mb-5 pr-4 pl-4 text-white p-2 bg-success border-0">
-                    get started
-                </button>
+                                  <div>
+                    <div>
+                      <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Consectetuer adipiscing elit</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Sed diam nonummy</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Nibh euismod tincidunt</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Ut laoreet dolore</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Magna aliquam erat volutpat</p>
+                    </div>
+
+                  </div>
+                  <button class="bg-success border-0 text-uppercase text-white py-2 px-2">get started</button>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="box p-3">
+               
+        <div class="col-xl-4 box col-md-6 m-md-auto col-sm-8 m-sm-auto">
+            <div class="p-3">
                 <h1>
                     ADVANCED
                 </h1>
-                <h6 class="bg-success d-inline-block p-1 pr-3 pl-3 mb-5">
+                <h6 class="bg-success d-inline-block p-1 pr-4 pl-3 mb-5">
                     $55.99 Monthly
                 </h6>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Lorem" type="checkbox">
-                        <label class="custom-control-label" for="Lorem">
-                            Lorem ipsum dolor sit amet
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Consectetuer" type="checkbox">
-                        <label class="custom-control-label" for="Consectetuer">
-                            Consectetuer adipiscing elit
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Sed" type="checkbox">
-                        <label class="custom-control-label" for="Sed">
-                            Sed diam nonummy
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Nibh" type="checkbox">
-                        <label class="custom-control-label" for="Nibh">
-                            Nibh euismod tincidunt
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Ut" type="checkbox">
-                        <label class="custom-control-label" for="Ut">
-                            Ut laoreet dolore
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Magna" type="checkbox">
-                        <label class="custom-control-label" for="Magna">
-                            Magna aliquam erat volutpat
-                        </label>
-                    </input>
-                </div>
-                <button class="mt-50 mb-5 pr-4 pl-4 p-2 text-white bg-success border-0">
-                    get started
-                </button>
-            </div>
-        </div>
-        <div class="col-sm-4">
+                  <div>
+                    <div>
+                      <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Consectetuer adipiscing elit</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Sed diam nonummy</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Nibh euismod tincidunt</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Ut laoreet dolore</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Magna aliquam erat volutpat</p>
+                    </div>
+
+                  </div>
+                  <button class="bg-success border-0 text-uppercase text-white py-2 px-2">get started</button>
+              
+               </div>
+               
+                
+            
+                </div> 
+        <div class="col-xl-4 col-md-6 col-sm-7 col-sm-8 m-sm-auto">
             <div class="box p-3">
                 <h1>
                     SMART
@@ -350,118 +344,105 @@
                 <h6 class="bg-success d-inline-block p-1 pr-3 pl-3 mb-5">
                     $35.99 Monthly
                 </h6>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Lorem" type="checkbox">
-                        <label class="custom-control-label" for="Lorem">
-                            Lorem ipsum dolor sit amet
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Consectetuer" type="checkbox">
-                        <label class="custom-control-label" for="Consectetuer">
-                            Consectetuer adipiscing elit
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Sed" type="checkbox">
-                        <label class="custom-control-label" for="Sed">
-                            Sed diam nonummy
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Nibh" type="checkbox">
-                        <label class="custom-control-label" for="Nibh">
-                            Nibh euismod tincidunt
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Ut" type="checkbox">
-                        <label class="custom-control-label" for="Ut">
-                            Ut laoreet dolore
-                        </label>
-                    </input>
-                </div>
-                <div class="custom-control custom-checkbox">
-                    <input class="custom-control-input" id="Magna" type="checkbox">
-                        <label class="custom-control-label" for="Magna">
-                            Magna aliquam erat volutpat
-                        </label>
-                    </input>
-                </div>
-                <button class="mt-50 mb-5 pr-4 pl-4 bg-success border-0 text-white p-2">
-                    get started
-                </button>
+                                  <div>
+                    <div>
+                      <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Consectetuer adipiscing elit</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Sed diam nonummy</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Nibh euismod tincidunt</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Ut laoreet dolore</p>
+                    </div>
+                       <div>
+                        <img src="../images/tick.svg" class="tick d-inline-block">
+                      <p class="text-center d-inline-block ml-2">Magna aliquam erat volutpat</p>
+                    </div>
+
+                  </div>
+                  <button class="bg-success border-0 text-uppercase text-white py-2 px-2">get started</button>
             </div>
-        </div>
-    </div>
+            </div>
 </section>
-<section class="bg-info p-5">
-    <div class="container">
-        <div class="row">
-            <div class=" col-xl-6 mb-5 ">
-                <h3 class="text-uppercase text-white">
-                    YOU THINK WE'RE COOL ? LET'S WORK TOGETHER
-                </h3>
-                <button class=" bg-light btn text-info btn-lg mt-3">
-                    get in touch
-                </button>
-            </div>
-            <div class="col-xl-6 bg-light pb-5 pt-3">
-                <h3 class="text-uppercase text-dark">
-                    STAY INFORMED WITH OUR NEWSLET-TER
-                </h3>
-                <p class="text-secondary">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <div class="d-flex">
-                    <input class="p-4 form-control border-right-0 " name="your email" placeholder="your email" type="s earch">
-                        <button class="bg-info px-5 border-0 text-white">
-                            send
+<section class="bg-success py-5 p-sm-5">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-xl-6 mb-5">
+                        <h3 class="text-uppercase text-white">
+                            YOU THINK WE'RE COOL ? LET'S WORK TOGETHER
+                        </h3>
+                        <button class=" bg-light btn text-success btn-lg mt-3">
+                            get in touch
                         </button>
-                    </input>
+                    </div>
+                    <div class="col-xl-6 bg-light pb-5 pt-3 col-md-8 col-sm-12">
+                        <h3 class="text-uppercase text-secondary">
+                            STAY INFORMED WITH OUR NEWSLET-TER
+                        </h3>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="d-flex">
+                            <input class="p-4 form-control border-right-0 " name="your email" placeholder="your email" type="s earch">
+                                <button class="bg-success px-5 border-0 text-uppercase text-white">
+                                    send
+                                </button>
+                            </input>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<footer class="bg-light pt-5 pb-5">
-    <div class="container">
-        <div class="row">
-            <nav class="col-xl-6 text-center">
-                <a class=" text-black-50 mr-3" href="#">
-                    Home  -
-                </a>
-                <a class=" text-black-50" href="#">
-                    about us     -
-                </a>
-                <a class=" text-black-50 mr-3" href="#">
-                    services     -
-                </a>
-                <a class=" text-black-50 mr-3" href="#">
-                    portfolio     -
-                </a>
-                <a class=" text-black-50 mr-3" href="#">
-                    blog     -
-                </a>
-                <a class=" text-black-50 mr-3" href="#">
-                    contact us
-                </a>
-            </nav>
-            <div class="col-xl-6 text-right">
-                <h6 class="text-black-50 text-center">
-                    Created by akhouad 2016. All Rights Reserved
-                </h6>
-                <a href="#">
-                    <img class="" src="../images/social-media.png"/>
-                </a>
+        </section>
+        <footer class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <nav class="col-xl-8 pt-5 pb-5 footer-nav">
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            Home
+                        </a>
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            about us
+                        </a>
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            services
+                        </a>
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            portfolio
+                        </a>
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            blog
+                        </a>
+                        <a class="pr-sm-3 d-block d-sm-inline-block text-center text-sm-left pr-md-5 text-black-50" href="#">
+                            contact us
+                        </a>
+                    </nav>
+                    <div class="col-xl-4 pt-5 pb-5 text-xl-right text-md-center">
+                        <h6 class=" text-dark text-black-50 mr-xl-3">
+                            Created by akhouad 2016. All Rights Reserved
+                        </h6>
+                        <div class="">
+                            <a href="https://www.facebook.com/" class="f imags"></a>
+                            <a href="https://twitter.com/login?lang=en" class="t imags"></a>
+                            <a href="https://www.youtube.com/?hl=uk&gl=UA" class="y imags"></a>
+                            <a href="https://www.linkedin.com/" class="in imags"></a>
+                            <a href="#" class="p imags"> </a>
+                            <a href="https://www.instagram.com/?hl=en" class="ins imags"> </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</footer>
+        </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript">
 </script>
 <script src="../js/bootstrap.min.js">
